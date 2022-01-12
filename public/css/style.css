@@ -5,6 +5,11 @@
    box-sizing: border-box;
    font-family: URW Chancery L, cursive;
 }
+.fa fa-music{
+   color: olive;
+   size: 50px;
+   
+}
 nav{
 line-height: 70px;
 background: rgba(0,0,0,0.5);
@@ -64,12 +69,27 @@ nav .container .nav-items li a:hover{
    align-items:center;
 }
 .right p{
-   font-size:20px;
+   font-size:25px;
    color:#fff;
    font-family: sans-serif;
    margin-right: 15px;
 }
+.left{
+   float:left;
+   margin-left: 15%;
+   margin-top: 130px;
+   display: flex;
+   align-items:center;
+}
+.left p{
+   font-size: 60px;
+   color: whitesmoke;
+   font-family: Brush Script MT, Brush Script Std, cursive;
+   margin-left:300px;
+   font-weight: 800;
+}
 #icon{
-   width:40px;
+   width:50px;
    cursor: pointer;
+   background-color: thistle;
 }
